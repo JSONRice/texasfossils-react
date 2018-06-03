@@ -1,0 +1,28 @@
+.logo {
+    background-image: url("paleoservices_white_sans.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 8vh;
+}
+
+
+
+.navLinks {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.navLinks:hover {
+    color: turquoise;
+    border-left: 1px solid turquoise;
+    border-right: 1px solid turquoise;
+    padding: 1em 1em;
+}
+
+#twist {
+    color: blue;
+}
