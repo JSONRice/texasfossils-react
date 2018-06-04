@@ -15,7 +15,7 @@ class App extends Component {
             <ImageWithCaption
                 id="kris01"
                 captionText="Paleo Services is a site for fossil collectors..."
-                uri="kris01.jpg"
+                uri="kris01"
                 alt="Kris 01"
             ></ImageWithCaption>
         </div>

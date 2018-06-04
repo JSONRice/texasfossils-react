@@ -1,4 +1,5 @@
 import React from 'react';
+import getImage from './imgMap';
 
 class ImageWithCaption extends React.Component {
 
@@ -13,10 +14,11 @@ class ImageWithCaption extends React.Component {
     }
 
     render() {
+        const IMAGE = getImage(this.image.uri);
         return (
             <span className="col-double">
-                <a ng-href={process.env.PUBLIC_URL + this.image.uri} href={this.image.uri}>
-                    <img src={process.env.PUBLIC_URL + this.image.uri} alt={this.image.alt}></img>
+                <a href={this.image.uri}>
+                    <img src={IMAGE} alt={this.image.alt}></img>
                 </a>
                 <p className="caption ng-binding">{this.image.captionText}</p>
             </span>
