@@ -1,12 +1,20 @@
-.logo {
-    background-image: url("paleoservices_white_sans.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 8vh;
+/*.logo {*/
+    /*background-image: url("images/paleoservices_white_sans.png");*/
+    /*background-position: center;*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    /*height: 8vh;*/
+/*}*/
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
 }
 
-
+.navbar-brand > img {
+    height: 30px;
+}
 
 .navLinks {
     font-family: 'Ubuntu', sans-serif;

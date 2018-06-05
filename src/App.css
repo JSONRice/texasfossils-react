@@ -75,3 +75,7 @@ nav {
 .col-12 {
   grid-column: 12;
 }
+
+/**
+ * Bootstrap overrides for React-Bootstrap components:
+ */
